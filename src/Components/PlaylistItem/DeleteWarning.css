@@ -1,0 +1,76 @@
+.Delete {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 0%, .7);
+}
+
+.DeleteModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #27282c;
+    overflow: hidden;
+}
+
+.DeleteModalButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.DeleteButton {
+    cursor: pointer;
+    width: 9rem;
+    padding: .70rem 0;
+    border-radius: 54px;
+    border: 0px;
+    margin: .5rem;
+    background-color: #f7af13;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color .25s;
+    color: #fff;
+    font-weight: 500;
+}
+      
+.DeleteButton:hover,
+.DeleteButton:focus {
+    background-color: rgba(108, 65, 233, .7);
+}
+
+.DeleteModal h1 {
+    margin-bottom: .7rem;
+}
+
+.DeleteModal h2 {
+    margin-top: 1rem;
+}
+
+.DeleteModal h3 {
+    color: #fff;
+    text-align: center;
+}
+
+/* .LoginLogo {
+    margin-bottom: .2rem;
+    width: 100px;
+} */
+
+@media only screen and (max-width: 769px) {
+    .DeleteModal {
+        width: 80%;
+    }
+  }

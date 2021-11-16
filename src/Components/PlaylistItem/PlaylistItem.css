@@ -1,0 +1,35 @@
+.PlaylistItem {
+    display: flex;
+    align-items: center;
+    padding: .2rem 0;
+}
+
+.PlaylistItem h3 {
+    margin: .3rem 0;
+    font-size: .9rem;
+}
+
+.PlaylistTitle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.PlaylistButton {
+    cursor: pointer;
+    padding: 0 .2rem;
+    font-size: .70rem;
+    color: rgba(256, 256, 256, 0.8);
+    transition: color .2s;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    }
+
+    .edit {
+        border-right: solid 1px white;
+    }
+    
+.PlaylistButton:hover {
+color: #f7af13;
+}

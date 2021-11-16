@@ -1,0 +1,105 @@
+.Hero-wrapper {
+    width: 100%;
+    height: 250px;
+    padding: 2.5rem 0;
+    background-color: #27282c;
+}
+
+.Hero {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.Hero h1 {
+    font-size: 3.2rem;
+    padding: 0;
+    text-align: left;
+}
+
+.Hero p {
+    font-size: .6rem;
+    opacity: .6;
+}
+
+.ProfileImage {
+    margin: auto 0;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.UserDetails {
+    position: relative;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.RecentArtists{
+    position: absolute;
+    bottom: 0;
+}
+
+.Artists {
+    display: flex;
+}
+
+.RecentArtists h3 {
+    font-size: 1rem;
+    margin: 0 1.2rem .2rem 1.2rem;
+}
+
+@media only screen and (max-width: 1120px) {
+    .Hero-wrapper {
+        height: 220px;
+    }
+    .Hero {
+        width: 75%;
+    }
+    .Hero h1 {
+        font-size: 2.5rem;
+    }
+    .Hero p {
+        font-size: .7rem;
+    }
+    .RecentArtists h3 {
+        font-size: .8rem;
+    }
+    .RecentArtists{
+        width: 100%;
+    }
+    .ProfileImage {
+        width: 200px;
+    }
+    .UserDetails {
+        margin-left: .8rem;
+    }
+  }
+
+  @media only screen and (max-width: 840px) {
+    .Hero {
+        width: 95%;
+    }
+    .ProfileImage {
+        display: none;
+    }
+    .UserDetails {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Artists {
+        justify-content: space-evenly;
+    }
+    .RecentArtists h3 {
+        text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 460px) {
+    .Hero h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}

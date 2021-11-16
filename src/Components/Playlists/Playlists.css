@@ -1,7 +1,7 @@
-.SearchResults {
+.Playlists {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 20%;
     max-height: 800px;
     padding: 1rem;
     background-color: #2a2a2e;
@@ -9,11 +9,11 @@
     border-radius: 10px;
   }
 
-  .SearchResults h2 {
+  .Playlists h2 {
     text-align: center;
     padding-bottom: 2rem;
   }
-  
+
   .Scroll {
     overflow-y: scroll;
     /* border-radius: 10px; */
@@ -25,7 +25,7 @@
   }
   
   @media only screen and (max-width: 1120px) {
-    .SearchResults {
+    .Playlists {
       width: 90%;
       margin-bottom: 2rem;
     }
