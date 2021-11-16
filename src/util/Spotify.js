@@ -1,4 +1,4 @@
-const client_ID = 'b56a019aed174864b7d26f0628e74c1b';
+const client_ID = '--------------';
 const redirect_URI = 'https://localhost:3000';  //DONT forget to change to live address here and Spotify dev.
 
 let accessToken;
